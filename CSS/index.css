@@ -139,4 +139,9 @@ body {
 .Header .span2 {
   color: #BE20A5;
 }
+
+.Main {
+  position: relative;
+  max-width: 100%;
+}
 /*# sourceMappingURL=index.css.map */
