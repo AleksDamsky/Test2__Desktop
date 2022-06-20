@@ -128,7 +128,7 @@ body {
 }
 
 .Header .text1.Header__OzonWild__text1 {
-  margin-top: 330px;
+  margin-top: 300px;
   margin-left: 190px;
 }
 
@@ -138,5 +138,73 @@ body {
 
 .Header .span2 {
   color: #BE20A5;
+}
+
+/*Main block*/
+.Main {
+  position: relative;
+  max-width: 100%;
+}
+
+.Wrapper.Main__Wrap {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 123px;
+}
+
+.Wrapper.Main__Wrap .Block1.Main__Wrap__B1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Wrapper.Main__Wrap .circle.Main__Wrap__B1__circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 50px;
+  margin-bottom: 5px;
+}
+
+.Wrapper.Main__Wrap .red {
+  width: 3px;
+  height: 3px;
+  border: 1px solid red;
+  border-radius: 100%;
+  background-color: red;
+}
+
+.Wrapper.Main__Wrap .yellow {
+  width: 3px;
+  height: 3px;
+  border: 1px solid yellow;
+  border-radius: 100%;
+  background-color: yellow;
+}
+
+.Wrapper.Main__Wrap .green {
+  width: 3px;
+  height: 3px;
+  border: 1px solid green;
+  border-radius: 100%;
+  background-color: green;
+}
+
+.Wrapper.Main__Wrap .text1.Main__Wrap__B1__text1 {
+  color: rgba(128, 128, 128, 0.493);
+  margin-bottom: 5px;
+  margin-right: 310px;
+  font-size: 12px;
+}
+
+.Wrapper.Main__Wrap .diagramma {
+  width: 879px;
+  height: 575px;
 }
 /*# sourceMappingURL=index.css.map */
