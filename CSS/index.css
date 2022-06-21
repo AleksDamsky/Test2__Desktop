@@ -106,10 +106,30 @@ body {
   padding-right: 75px;
 }
 
+.List .text1,
+.List .text2,
+.List .text3 {
+  padding-top: 20px;
+}
+
 .List .text4 {
   padding: 20px;
   border: 0.866667px solid #219653;
   border-radius: 25px;
+}
+
+.ssylka {
+  color: black;
+  text-decoration: none;
+}
+
+.ssylka__3 {
+  color: #219653;
+}
+
+.ssylka__4 {
+  color: #219653;
+  font-weight: 600;
 }
 
 .section1 {
@@ -125,4 +145,7 @@ body {
 .section1 .ozon {
   color: #0069FF;
 }
+
+/*Верстка main*/
+/*Верстка section2 && section3*/
 /*# sourceMappingURL=index.css.map */
