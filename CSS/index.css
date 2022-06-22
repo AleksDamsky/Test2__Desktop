@@ -148,4 +148,60 @@ body {
 
 /*Верстка main*/
 /*Верстка section2 && section3*/
+.mainsection23 {
+  margin-top: 250px;
+}
+
+.group2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.TreeCircle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-right: 5px;
+  margin-left: 50px;
+}
+
+.red {
+  width: 5px;
+  height: 5px;
+  border: red solid 1px;
+  border-radius: 25px;
+  background-color: red;
+}
+
+.yellow {
+  width: 5px;
+  height: 5px;
+  border: yellow solid 1px;
+  border-radius: 25px;
+  background-color: yellow;
+}
+
+.green {
+  width: 5px;
+  height: 5px;
+  border: green solid 1px;
+  border-radius: 25px;
+  background-color: green;
+}
+
+.row {
+  font-size: 12px;
+  color: #333D37;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 300px;
+}
 /*# sourceMappingURL=index.css.map */
