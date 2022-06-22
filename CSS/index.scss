@@ -54,134 +54,136 @@ table {
 
 /*Начало стилизации лэндинга*/
 body{
-    max-width: 100%;
+    max-width: 1440px;
+	height: 9151px;
     box-sizing: border-box;
     font-family:'Gentium Plus', serif;
+	position: relative;
 }
 
-.Header{
-    max-width: 100%;
-    height: 308px;
-    position: relative;
-	letter-spacing: -0.3px;
 
+/*Верстка шапки*/
 
-.logo.Header__logo{
-    position: absolute;
-	top: 60px;
-	left: 70px;
-}
+.container{
+	margin: 47px 48px 0 68px;
+	position: absolute;
+	letter-spacing: 0.3px;
 
-.navigation.Header__navigation{
-    position: absolute;
-	flex-wrap: wrap;
-    font-size: 18px;
-	.list.Header__navigation__list{
+	.group1{
 		display: flex;
 		justify-content: space-between;
-		margin: 28px 20px 0 600px;
-		align-items: center;
+		padding-bottom: 46px;
 	}
 }
 
-.textList4.Header__navigation__list__textList4{
-	border: 1px solid #219653;
-	border-radius: 25px 25px 25px 25px;
-	padding: 15px;
+.navigation{
+	margin-left: 554px;
+	flex-wrap: wrap;
 }
 
-.Ssylka1,
-.Ssylka2,
-.Ssylka3,
-.Ssylka4 {
-	text-decoration: none;
-	color: black;
-	padding: 30px;
+.List{
+	display: flex;
+	justify-content: space-between;
+
+
+	.text1,
+	.text2,
+	.text3,
+	.text4{
+		margin-left: -55px;
+		padding-right: 75px;
+	}
+
+	.text1,
+	.text2,
+	.text3{
+		padding-top: 20px;
+	}
+
+	.text4{
+		padding: 20px;
+		border: 0.866667px solid #219653;
+		border-radius: 25px;
+	}
 }
-.Ssylka3{
+
+.ssylka{
+	color: black;
+	text-decoration: none;
+
+}
+
+.ssylka__3{
 	color: #219653;
 }
-.Ssylka4{
-	color:  #219653;;
+
+.ssylka__4{
+	color: #219653;
+	font-weight: 600;
 }
 
-.OzonWild.Header__OzonWild{
-	width: 1150px;
-	position: absolute;
-	font-size: 30px;
+
+.section1{
 	text-align: center;
-}
+	font-size: 30px;
+	font-weight: 900;
 
-.text1.Header__OzonWild__text1{
-	margin-top: 300px;
-	margin-left: 190px;
-}
-
-.span1{
-	color:  #0069FF;
-}
-.span2{
-	color: #BE20A5;
-}
-}
-
-
-
-/*Main block*/
-.Main{
-	position: relative;
-	max-width: 100%;
-}
-
-.Wrapper.Main__Wrap{
-	position: absolute;
-	margin-top: 100px;
-	margin-left: 123px;
-
-	.Block1.Main__Wrap__B1{
-		display: flex;
-	    justify-content: space-between;
+	.Wildberries{
+		color: #BE20A5;
 	}
+	.ozon{
+		color: #0069FF;
 
-	.circle.Main__Wrap__B1__circle{
-		display: flex;
-		justify-content: space-between;
-		margin-left: 50px;
-		margin-bottom: 5px;
-	}
-
-	.red{
-		width: 3px;
-		height: 3px;
-		border: 1px solid red;
-		border-radius: 100%;
-		background-color: red;
-	}
-	.yellow{
-		width: 3px;
-		height: 3px;
-		border: 1px solid yellow;
-		border-radius: 100%;
-		background-color: yellow;
-	}
-	.green{
-		width: 3px;
-		height: 3px;
-		border: 1px solid green;
-		border-radius: 100%;
-		background-color: green;
-	}
-
-	.text1.Main__Wrap__B1__text1{
-		color: rgba(128, 128, 128, 0.493);
-		margin-bottom: 5px;
-		margin-right: 310px;
-		font-size: 12px;
-	}
-
-
-	.diagramma{
-		width: 879px;
-        height: 575px;
 	}
 }
+
+/*Верстка main*/
+
+/*Верстка section2 && section3*/
+
+.mainsection23 {
+	margin-top: 250px;
+}
+
+
+.group2{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.TreeCircle{
+	display: flex;
+	justify-content: flex-start;
+	padding-right: 5px;
+	margin-left: 50px;
+}
+
+.red{
+	width: 5px;
+	height: 5px;
+	border: red solid 1px;
+	border-radius: 25px;
+	background-color: red;
+}
+.yellow{
+	width: 5px;
+	height: 5px;
+	border: yellow solid 1px;
+	border-radius: 25px;
+	background-color: yellow;
+}
+.green{
+	width: 5px;
+	height: 5px;
+	border: green solid 1px;
+	border-radius: 25px;
+	background-color: green;
+}
+
+.row{
+	font-size: 12px;
+	color:  #333D37;
+	align-items: center;
+	margin-left: 300px;
+}
+
