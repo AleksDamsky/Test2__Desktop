@@ -148,11 +148,11 @@ body {
 
 /*Верстка main*/
 /*Верстка section2 && section3*/
-.mainsection23 {
+.main__Body {
   margin-top: 250px;
 }
 
-.group2 {
+.main__group2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -196,12 +196,40 @@ body {
   background-color: green;
 }
 
-.row {
+.main__row {
   font-size: 12px;
   color: #333D37;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   margin-left: 300px;
+}
+
+.main__group2 {
+  position: relative;
+}
+
+.main__image1 {
+  position: absolute;
+}
+
+.main__frame1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: #219653 1px solid;
+}
+
+.main__frameSpan {
+  position: absolute;
+  padding-left: 70px;
+}
+
+.main__sidebar {
+  position: absolute;
+  margin-top: 500px;
 }
 /*# sourceMappingURL=index.css.map */
