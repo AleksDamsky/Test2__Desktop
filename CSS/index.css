@@ -259,7 +259,8 @@ body {
 /*Sidebar*/
 .main__sidebar {
   position: absolute;
-  margin-top: 500px;
+  right: -380px;
+  top: 300px;
 }
 
 .main__column1 {
@@ -274,6 +275,7 @@ body {
   height: 84px;
   left: 1059px;
   top: 389px;
+  padding-bottom: 40px;
 }
 
 .main__column1Title {
@@ -293,6 +295,7 @@ body {
   height: 84px;
   left: 1059px;
   top: 389px;
+  padding-bottom: 40px;
 }
 
 .main__column2Title {
@@ -312,10 +315,24 @@ body {
   height: 84px;
   left: 1059px;
   top: 389px;
+  padding-bottom: 40px;
 }
 
 .main__column3Title {
   padding-bottom: 10px;
   font-weight: bold;
+}
+
+.main__frame269 {
+  padding-top: 95px;
+  text-align: center;
+}
+
+.main__text6 {
+  display: block;
+  color: #219653;
+  font-weight: 400px;
+  text-align: center;
+  letter-spacing: 0.3px;
 }
 /*# sourceMappingURL=index.css.map */
