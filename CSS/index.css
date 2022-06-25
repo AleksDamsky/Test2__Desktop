@@ -58,6 +58,7 @@ table {
 
 /*Начало стилизации лэндинга*/
 body {
+  background-color: #fff4d5;
   max-width: 1440px;
   height: 9151px;
   -webkit-box-sizing: border-box;
