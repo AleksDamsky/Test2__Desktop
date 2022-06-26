@@ -233,7 +233,7 @@ body{
 	top: 300px;
 }
 
-.main__column1{
+.main__column{
 	display: flex;
 	flex-direction: column;
 	width: 260px;
@@ -242,7 +242,7 @@ body{
 	top: 389px;
 	padding-bottom: 40px;
 }
-.main__column1Title{
+.columnTitle{
 	padding-bottom: 10px;
 	font-weight: bold;
 }
@@ -286,4 +286,30 @@ body{
 	font-weight: 400px;
 	text-align: center;
 	letter-spacing: 0.3px;
+}
+
+.main__wrapperColumn{
+	position: absolute;
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 74%;
+	padding-top: 58px;
+}
+
+
+.main__analiticsRival{
+	position: absolute;
+	font-size: 36px;
+	letter-spacing: 1px;
+	margin-left: 70px;
+}
+
+.main__groupColumn4_5{
+	margin-left: 70px;
+	margin-right: 40px;
+	padding-top: 10px;
+}
+
+.main__groupColumn6_7{
+	padding-top: 10px;
 }

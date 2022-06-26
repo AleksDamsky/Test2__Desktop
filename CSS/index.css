@@ -263,7 +263,7 @@ body {
   top: 300px;
 }
 
-.main__column1 {
+.main__column {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -278,7 +278,7 @@ body {
   padding-bottom: 40px;
 }
 
-.main__column1Title {
+.columnTitle {
   padding-bottom: 10px;
   font-weight: bold;
 }
@@ -334,5 +334,34 @@ body {
   font-weight: 400px;
   text-align: center;
   letter-spacing: 0.3px;
+}
+
+.main__wrapperColumn {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-top: 74%;
+  padding-top: 58px;
+}
+
+.main__analiticsRival {
+  position: absolute;
+  font-size: 36px;
+  letter-spacing: 1px;
+  margin-left: 70px;
+}
+
+.main__groupColumn4_5 {
+  margin-left: 70px;
+  margin-right: 40px;
+  padding-top: 10px;
+}
+
+.main__groupColumn6_7 {
+  padding-top: 10px;
 }
 /*# sourceMappingURL=index.css.map */
