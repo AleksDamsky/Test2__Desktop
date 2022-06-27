@@ -297,7 +297,7 @@ body{
 }
 
 
-.main__analiticsRival{
+.analiticsRival.main__analiticsRival{
 	position: absolute;
 	font-size: 36px;
 	letter-spacing: 1px;
@@ -307,9 +307,23 @@ body{
 .main__groupColumn4_5{
 	margin-left: 70px;
 	margin-right: 40px;
-	padding-top: 10px;
+	padding-top: 30px;
+	line-height: 27px;
 }
 
 .main__groupColumn6_7{
-	padding-top: 10px;
+	padding-top: 30px;
+	line-height: 27px;	
+}
+
+.group270{
+	position: absolute;
+	right: 0px;
+	top: 1050px;
+	cursor: none;
+}
+
+.analiticsRival.main__newAnaliticsRival{
+	position: absolute;
+	
 }
